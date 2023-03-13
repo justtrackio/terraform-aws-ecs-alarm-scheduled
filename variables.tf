@@ -12,13 +12,13 @@ variable "alarm_topic_arn" {
 
 variable "datapoints_to_alarm" {
   type        = number
-  default     = 3
+  default     = 1
   description = "The number of datapoints that must be breaching to trigger the alarm"
 }
 
 variable "evaluation_periods" {
   type        = number
-  default     = 3
+  default     = 1
   description = "The number of periods over which data is compared to the specified threshold"
 }
 
@@ -30,7 +30,7 @@ variable "period" {
 
 variable "threshold" {
   type        = number
-  default     = 99
+  default     = 0
   description = "Required percentage of successful requests"
 }
 
