@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/compare/v1.0.1...v1.1.0) (2023-09-07)
+
+
+### Features
+
+* add alarm topic arn convention ([#20](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/issues/20)) ([cb3942c](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/commit/cb3942cb0043a12675d85ccb281d1ab15cd7febc))
+
 ## [1.0.1](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/compare/v1.0.0...v1.0.1) (2023-05-15)
 
 
