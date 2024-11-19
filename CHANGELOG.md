@@ -1,3 +1,10 @@
+## [1.2.0](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/compare/v1.1.0...v1.2.0) (2024-11-19)
+
+
+### Features
+
+* add alarm levels ([#60](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/issues/60)) ([75cf579](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/commit/75cf579c320b720f8df008fb359754983f253ba1))
+
 ## [1.1.0](https://github.com/justtrackio/terraform-aws-ecs-alarm-scheduled/compare/v1.0.1...v1.1.0) (2023-09-07)
 
 
