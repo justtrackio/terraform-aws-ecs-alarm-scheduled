@@ -4,6 +4,12 @@ variable "alarm_description" {
   default     = null
 }
 
+variable "alarm_priority" {
+  type        = string
+  description = "Priority of the alarm"
+  default     = "high"
+}
+
 variable "alarm_topic_arn" {
   type        = string
   description = "The ARN of the SNS topic to receive the alerts"

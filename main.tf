@@ -16,8 +16,10 @@ module "cloudwatch_label" {
 resource "aws_cloudwatch_metric_alarm" "default" {
   count = module.this.enabled ? 1 : 0
 
-  alarm_name          = "${module.this.id}-app-error"
-  alarm_description   = var.alarm_description
+  alarm_name = "${module.this.id}-app-error"
+  alarm_description = jsonencode(merge({
+    Priority = var.alarm_priority
+  }, jsondecode(var.alarm_description)))
   comparison_operator = "GreaterThanThreshold"
   evaluation_periods  = var.evaluation_periods
   datapoints_to_alarm = var.datapoints_to_alarm
